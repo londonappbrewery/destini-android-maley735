@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if(mLevel == 3){
                     mStoryTextView.setText(R.string.T6_End);
                     buttonDisappear();
-                }else if(mLevel == 2){
+                }else{
                     setLevel_3();
                 }
             }
